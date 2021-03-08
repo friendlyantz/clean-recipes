@@ -1,7 +1,9 @@
 # Clean Recipes
 A simple open-source collection of recipes without bloat.
 
-Ruby on Rails without JavaScript
+Ruby on Rails. minimal or no JavaScript
+
+https://clean-simple-recipes.herokuapp.com/
 
 ### Commands to run
 
