@@ -1,24 +1,34 @@
-# README
+# Clean Recipes
+A simple open-source collection of recipes without bloat.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails without JavaScript
 
-Things you may want to cover:
+### Commands to run
 
-* Ruby version
+`bundle install`
 
-* System dependencies
+`rails db:create`
 
-* Configuration
+`rails db:migrate`
 
-* Database creation
+`rails db:seed`
 
-* Database initialization
+`rails s` to run the server locally
 
-* How to run the test suite
+## Database (WIP) - open to comments
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Recipe
+* name
+* content (instructions)
+* ingredient (foreign_key)
 
-* Deployment instructions
+#### Ingredients
+* name
 
-* ...
+#### Doses
+* content (dose quantity / short description)
+
+![image](https://user-images.githubusercontent.com/70934030/110303947-1ea78980-804f-11eb-8ddd-950127caa053.png)
+
+![image](https://user-images.githubusercontent.com/70934030/110302213-19493f80-804d-11eb-8612-accf4fdaba71.png)
+
