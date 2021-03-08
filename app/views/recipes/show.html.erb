@@ -1,0 +1,11 @@
+<h1>
+  <%= @recipe.name %>
+</h1>
+<p>
+  <%= @recipe.content %>
+</p>
+<ol>
+  <% @recipe.doses.each do |dose| %>
+    <li> <strong><%= dose.ingredient.name %>:</strong> <%= dose.content %> </li>
+  <% end %>
+</ol>
